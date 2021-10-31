@@ -1,0 +1,71 @@
+*{
+    margin:0; 
+    text-align:center;
+ }
+ body{background:linear-gradient(90deg,orange,white,green);}
+ table{width:100%;
+ margin-top:30px;}
+ img{border-radius:10px;
+     box-shadow:0 0 10px black;
+ }
+ 
+ 
+ #header { background-color: orangered;
+ height: 70px;}
+ #brand {width:40%;
+          float:left;
+          line-height: 70px;
+          text-align:center;
+          color:white;
+ }
+ #menu { width:60%; 
+         float:right;
+     line-height: 70px;}
+ a{ color:white;
+ margin-right:30px;
+ text-decoration:none;
+ text-align:center;
+ }
+ #title{margin-top: 30px;}
+ #Roti{margin-top:20px;}
+ #DR{background:linear-gradient(45deg,darkred,black);
+ color:white;
+ padding:15px;
+ border-radius:50%;
+ margin:20px auto;
+ width:500px;
+ }
+ #TD{background:linear-gradient(45deg,darkred,black);
+ color:white;
+ width:500px;
+ margin: 20px auto;
+ border-radius:50%;
+ padding:15px; 
+ }
+ #L{background:linear-gradient(45deg,darkred,black);
+     margin:20px auto;
+     color:white;
+     border-radius:50%;
+     padding:15px;
+     width:500px;
+ 
+ 
+ 
+ }
+ #footer{background-color:black;
+ padding:50px;
+ color:cornsilk;
+ margin-top:50px;}
+ .container{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+ .items{
+     float: left;
+     height: 320px;
+     width: 320px;
+     padding: 20px;
+ }
